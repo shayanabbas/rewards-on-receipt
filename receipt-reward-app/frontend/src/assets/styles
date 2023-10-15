@@ -1,0 +1,84 @@
+```css
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Login Styles */
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    padding: 20px;
+}
+
+.receipt-upload {
+    border: 2px dashed #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.receipt-list {
+    margin-top: 20px;
+}
+
+/* Redemption Styles */
+.redemption {
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list .product {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/* Admin Panel Styles */
+.admin-panel {
+    padding: 20px;
+}
+
+.admin-panel .settings {
+    margin-bottom: 20px;
+}
+
+.admin-panel .product-management {
+    margin-top: 20px;
+}
+```
