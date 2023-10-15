@@ -1,0 +1,37 @@
+{
+  "name": "receipt-reading-reward-system",
+  "version": "1.0.0",
+  "description": "A system that allows users to upload shopping receipts, earn points based on their expenses, and redeem these points for products or offers.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "pg": "^8.6.0",
+    "auth0": "^2.36.0",
+    "google-cloud-vision": "^2.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "body-parser": "^1.19.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/receipt-reading-reward-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/receipt-reading-reward-system/issues"
+  },
+  "homepage": "https://github.com/yourusername/receipt-reading-reward-system#readme"
+}
